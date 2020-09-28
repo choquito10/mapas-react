@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#mapa {
+	width: 100vw;
+	height: 100vh;
+}
+
+.leaflet-popup-content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	cursor: pointer;
+	width: 250px;
+	height: 180px;
+	background-color: rgb(36, 108, 123);
+}
+
+.leaflet-popup-tip {
+	width: 0px;
+	height: 0px;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	height: 100%;
+	color: white;
+}
+
+#descripcion {
+	margin-bottom: 0.6rem;
+}
+
+textarea {
+	overflow: scroll;
+	resize: none;
+	border: 1px solid black;
+}
+
+.leaflet-container {
+	height: 100vh;
+	width: 100vw;
+}
+.boton {
+	cursor: pointer;
+	color: white;
+	background-color: black;
+}
+
+#lugar {
+	border: 1px solid black;
+}
